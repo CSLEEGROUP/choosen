@@ -1,1 +1,1 @@
-web: bin/heroku-php-apache2 choosen/
+web: bin/heroku-php-apache2 choosen/public/
