@@ -87,6 +87,7 @@ class ComposerStaticInit23806371177434a9f2f65c8345082f54
         'C' => 
         array (
             'Cron\\' => 5,
+            'Cowsayphp\\' => 10,
             'Carbon\\' => 7,
         ),
         'A' => 
@@ -222,6 +223,10 @@ class ComposerStaticInit23806371177434a9f2f65c8345082f54
         array (
             0 => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron',
         ),
+        'Cowsayphp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alrik11es/cowsayphp/src',
+        ),
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
@@ -293,6 +298,14 @@ class ComposerStaticInit23806371177434a9f2f65c8345082f54
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
+        'Cowsayphp\\AbstractAnimal' => __DIR__ . '/..' . '/alrik11es/cowsayphp/src/AbstractAnimal.php',
+        'Cowsayphp\\AnimalInterface' => __DIR__ . '/..' . '/alrik11es/cowsayphp/src/AnimalInterface.php',
+        'Cowsayphp\\Cow' => __DIR__ . '/..' . '/alrik11es/cowsayphp/src/Cow.php',
+        'Cowsayphp\\Farm' => __DIR__ . '/..' . '/alrik11es/cowsayphp/src/Farm.php',
+        'Cowsayphp\\Farm\\Cow' => __DIR__ . '/..' . '/alrik11es/cowsayphp/src/Farm/Cow.php',
+        'Cowsayphp\\Farm\\Dragon' => __DIR__ . '/..' . '/alrik11es/cowsayphp/src/Farm/Dragon.php',
+        'Cowsayphp\\Farm\\Tux' => __DIR__ . '/..' . '/alrik11es/cowsayphp/src/Farm/Tux.php',
+        'Cowsayphp\\Farm\\Whale' => __DIR__ . '/..' . '/alrik11es/cowsayphp/src/Farm/Whale.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
