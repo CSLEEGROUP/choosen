@@ -1,3 +1,7 @@
+https://id.heroku.com/login
+username: cslee7389@gmail.com
+pass: p@ssw0rd
+
 https://devcenter.heroku.com/articles/getting-started-with-php#view-logs
 
 https://mattstauffer.co/blog/laravel-on-heroku-using-a-mysql-database
@@ -6,3 +10,7 @@ host=us-cdbr-iron-east-03.cleardb.net
 database=heroku_6b5efc46d7f35d1
 Username:	b12d84f3c5bc82
 Password:	4467e2f4
+
+https://www.cleardb.com/login.view#
+
+https://devcenter.heroku.com/articles/getting-started-with-php#deploy-the-app
