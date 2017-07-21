@@ -1,6 +1,6 @@
 <div class="navbar">
     <div class="navbar-inner">
-        <a id="logo" href="/">Single Malt</a>
+        <a id="logo" href="/">{{ config('app.name', 'Laravel') }}</a>
         
         @if (Route::has('login'))
                 <div class="top-right links">
@@ -12,6 +12,6 @@
                     @endif
                 </div>
             @endif
-            
+
     </div>
 </div>

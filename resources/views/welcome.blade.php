@@ -98,11 +98,11 @@
                 </div>
 
                 <div class="links">
-                    <a href="#">What</a>
-                    <a href="#">Where</a>
-                    <a href="#">Why</a>
-                    <a href="#">Who</a>
-                    <a href="#">How</a>
+                    <a href="{{ url('/what') }}">What</a>
+                    <a href="{{ url('/where') }}">Where</a>
+                    <a href="{{ url('/why') }}">Why</a>
+                    <a href="{{ url('/who') }}">Who</a>
+                    <a href="{{ url('/how') }}">How</a>
                 </div>
             </div>
 

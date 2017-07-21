@@ -31,15 +31,23 @@ Route::get('/home2', function()
 {
     return View::make('pages.home');
 });
-Route::get('about', function()
+Route::get('what', function()
 {
-    return View::make('pages.about');
+    return View::make('pages.what');
 });
-Route::get('projects', function()
+Route::get('where', function()
 {
-    return View::make('pages.projects');
+    return View::make('pages.where');
 });
-Route::get('contact', function()
+Route::get('why', function()
 {
-    return View::make('pages.contact');
+    return View::make('pages.why');
+});
+Route::get('who', function()
+{
+    return View::make('pages.who');
+});
+Route::get('how', function()
+{
+    return View::make('pages.how');
 });

@@ -1,4 +1,4 @@
-<!-- sidebar nav -->
+ <!-- sidebar nav -->
     <nav id="sidebar-nav">
         <ul class="nav nav-pills nav-stacked">
             <li><a href="#">Fly to the Moon</a></li>
