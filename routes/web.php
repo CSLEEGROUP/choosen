@@ -22,3 +22,24 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/cart', function () {
     return view('cart/test');
 });
+
+Route::get('/wel', function () {
+    return view('welcome_mat');
+});
+
+Route::get('/home2', function()
+{
+    return View::make('pages.home');
+});
+Route::get('about', function()
+{
+    return View::make('pages.about');
+});
+Route::get('projects', function()
+{
+    return View::make('pages.projects');
+});
+Route::get('contact', function()
+{
+    return View::make('pages.contact');
+});
