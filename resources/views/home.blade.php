@@ -10,7 +10,7 @@
                 <div class="panel-body">
                         <div class="media">
                                 <div class="media-body">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/APvHaKT3CuI" frameborder="0" allowfullscreen>
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/sUakwV6Yt-g" frameborder="0" allowfullscreen>
                                     </iframe>
                                 </div>
                         </div>
