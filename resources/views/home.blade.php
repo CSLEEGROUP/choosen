@@ -23,12 +23,13 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Things you might have missed...</div>
                     <div class="panel-body">
-                            <div class="media">
-                                    <div class="media-body">
-                                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/sUakwV6Yt-g" frameborder="0" allowfullscreen>
-                                        </iframe>
-                                    </div>
-                            </div>
+                        <div class="media">
+                                <div class="media-body">
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/sUakwV6Yt-g" frameborder="0" allowfullscreen>
+                                    </iframe>
+                                    
+                                </div>
+                        </div>
                     </div>
                 </div>
             
