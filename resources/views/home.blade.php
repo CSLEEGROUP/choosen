@@ -133,19 +133,11 @@
                                 </div>
                                 <hr>
                                 <div class="btn-group">                                        
-                                        <?php
-                                        $dirname = 'audio/';
-                                       $file = "golden_fish.mp3";
-
-                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
-                                        <param name="movie" value="dewplayer.swf" />
-                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
-                                        <param name="wmode" value="transparent" />
-                                        </object>';
-
-                                       ?>
-
-                                    </div>
+                                    <video width="200" height="20" controls controlsList="nodownload">
+                                        <source src="audio/golden_fish.mp3" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                    </video>                                        
+                                </div>
                             </div>
                         </li>
                         <li>
@@ -159,19 +151,11 @@
                                     <p>Max ... talking to his mom</p>
                                     <hr>
                                     <div class="btn-group">                                        
-                                        <?php
-                                        $dirname = 'audio/';
-                                       $file = "";
-
-                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
-                                        <param name="movie" value="dewplayer.swf" />
-                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
-                                        <param name="wmode" value="transparent" />
-                                        </object>';
-
-                                       ?>
-
-                                    </div>
+                                        <video width="200" height="20" controls controlsList="nodownload">
+                                            <source src="" type="video/mp4">
+                                            Your browser does not support HTML5 video.
+                                        </video>                                        
+                                    </div>                                    
                                 </div>
                             </div>
                         </li>
@@ -187,18 +171,11 @@
                                 </div>
                                 <hr>
                                 <div class="btn-group">                                        
-                                        <?php
-                                       $file = "https://drive.google.com/drive/u/1/folders/1WDVnxRjbwHTwBV1EHb3V6c-GQrtB9tRH";
-
-                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
-                                        <param name="movie" value="dewplayer.swf" />
-                                        <param name="flashvars" value="mp3='.$file.'" />
-                                        <param name="wmode" value="transparent" />
-                                        </object>';
-
-                                       ?>
-
-                                    </div>
+                                    <video width="200" height="20" controls controlsList="nodownload">
+                                        <source src="https://drive.google.com/open?id=1lvDx-JwlgTdEjsWTMYNXYv35OKKhAmPA" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                    </video>                                        
+                                </div>
                             </div>
                         </li>
                         <li>
@@ -212,18 +189,10 @@
                                     <p>Listen ... Snow White</p>
                                     <hr>
                                     <div class="btn-group">                                        
-                                        <?php
-                                        $dirname = 'audio/';
-                                       $file = (isset($_GET['file']) == true ? ($file = $_GET['file']) : 'Snow_White.mp3');
-
-                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
-                                        <param name="movie" value="dewplayer.swf" />
-                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
-                                        <param name="wmode" value="transparent" />
-                                        </object>';
-
-                                       ?>
-
+                                        <video width="200" height="20" controls controlsList="nodownload">
+                                            <source src="audio/Snow_White.mp3" type="video/mp4">
+                                            Your browser does not support HTML5 video.
+                                        </video>                                        
                                     </div>
                                 </div>
                             </div>
@@ -240,19 +209,11 @@
                                 </div>
                                 <hr>
                                 <div class="btn-group">                                        
-                                        <?php
-                                        $dirname = 'audio/';
-                                       $file = "";//(isset($_GET['file']) == true ? ($file = $_GET['file']) : 'Snow_White.mp3');
-
-                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
-                                        <param name="movie" value="dewplayer.swf" />
-                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
-                                        <param name="wmode" value="transparent" />
-                                        </object>';
-
-                                       ?>
-
-                                    </div>
+                                    <video width="200" height="20" controls controlsList="nodownload">
+                                        <source src="" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                    </video>                                        
+                                </div>
                             </div>
                         </li>
                         <li>
@@ -266,19 +227,11 @@
                                     <p>Listen ... The frog prince</p>
                                     <hr>
                                     <div class="btn-group">                                        
-                                        <?php
-                                        $dirname = 'audio/';
-                                       $file = (isset($_GET['file']) == true ? ($file = $_GET['file']) : 'FrogPrince.mp3');
-
-                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
-                                        <param name="movie" value="dewplayer.swf" />
-                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
-                                        <param name="wmode" value="transparent" />
-                                        </object>';
-
-                                       ?>
-
-                                    </div>
+                                        <video width="200" height="20" controls controlsList="nodownload">
+                                            <source src="audio/FrogPrince.mp3" type="video/mp4">
+                                            Your browser does not support HTML5 video.
+                                        </video>                                        
+                                    </div>                                    
                                 </div>
                             </div>
                         </li>
@@ -293,18 +246,10 @@
                                     <p>Brian sing song</p>
                                     <hr>
                                     <div class="btn-group">                                        
-                                        <?php
-                                        $dirname = 'audio/';
-                                       $file = '';//(isset($_GET['file']) == true ? ($file = $_GET['file']) : 'FrogPrince.mp3');
-
-                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
-                                        <param name="movie" value="dewplayer.swf" />
-                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
-                                        <param name="wmode" value="transparent" />
-                                        </object>';
-
-                                       ?>
-
+                                        <video width="200" height="20" controls controlsList="nodownload">
+                                            <source src="" type="video/mp4">
+                                            Your browser does not support HTML5 video.
+                                        </video>                                        
                                     </div>
                                 </div>
                             </div>
