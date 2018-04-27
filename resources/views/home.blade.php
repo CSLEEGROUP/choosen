@@ -121,15 +121,96 @@
                         <!-- /.panel -->
                                   
                     <ul class="timeline">
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge info"><i class="fa fa-save"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Audio free...</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Stella sing song</p>
+                                </div>
+                                <hr>
+                                <div class="btn-group">                                        
+                                        <?php
+                                        $dirname = 'audio/';
+                                       $file = (isset($_GET['file']) == true ? ($file = $_GET['file']) : 'Snow_White.mp3');
+
+                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
+                                        <param name="movie" value="dewplayer.swf" />
+                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
+                                        <param name="wmode" value="transparent" />
+                                        </object>';
+
+                                       ?>
+
+                                    </div>
+                            </div>
+                        </li>
                         <li>
                             <div class="timeline-badge info"><i class="fa fa-save"></i>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title">Lorem ipsum dolor</h4>
+                                    <h4 class="timeline-title">Frog is a prince..</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus modi quam ipsum alias at est molestiae excepturi delectus nesciunt, quibusdam debitis amet, beatae consequuntur impedit nulla qui! Laborum, atque.</p>
+                                    <p>Listen ... The frog prince</p>
+                                    <hr>
+                                    <div class="btn-group">                                        
+                                        <?php
+                                        $dirname = 'audio/';
+                                       $file = (isset($_GET['file']) == true ? ($file = $_GET['file']) : 'FrogPrince.mp3');
+
+                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
+                                        <param name="movie" value="dewplayer.swf" />
+                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
+                                        <param name="wmode" value="transparent" />
+                                        </object>';
+
+                                       ?>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge info"><i class="fa fa-save"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Audio free...</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Brian sing song</p>
+                                    <hr>
+                                    <div class="btn-group">                                        
+                                        <?php
+                                        $dirname = 'audio/';
+                                       $file = '';//(isset($_GET['file']) == true ? ($file = $_GET['file']) : 'FrogPrince.mp3');
+
+                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
+                                        <param name="movie" value="dewplayer.swf" />
+                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
+                                        <param name="wmode" value="transparent" />
+                                        </object>';
+
+                                       ?>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-badge info"><i class="fa fa-save"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">What to do next?</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>test again</p>
                                     <hr>
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
@@ -155,10 +236,10 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title">Lorem ipsum dolor</h4>
+                                    <h4 class="timeline-title">Is this work?</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt obcaecati, quaerat tempore officia voluptas debitis consectetur culpa amet, accusamus dolorum fugiat, animi dicta aperiam, enim incidunt quisquam maxime neque eaque.</p>
+                                    <p>test playing</p>
                                 </div>
                             </div>
                         </li>
