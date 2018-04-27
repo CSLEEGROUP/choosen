@@ -129,13 +129,120 @@
                                     <h4 class="timeline-title">Audio free...</h4>
                                 </div>
                                 <div class="timeline-body">
+                                    <p>Golden fish</p>
+                                </div>
+                                <hr>
+                                <div class="btn-group">                                        
+                                        <?php
+                                        $dirname = 'audio/';
+                                       $file = "golden_fish.mp3";
+
+                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
+                                        <param name="movie" value="dewplayer.swf" />
+                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
+                                        <param name="wmode" value="transparent" />
+                                        </object>';
+
+                                       ?>
+
+                                    </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-badge info"><i class="fa fa-save"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Audio free... </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Max ... talking to his mom</p>
+                                    <hr>
+                                    <div class="btn-group">                                        
+                                        <?php
+                                        $dirname = 'audio/';
+                                       $file = "";
+
+                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
+                                        <param name="movie" value="dewplayer.swf" />
+                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
+                                        <param name="wmode" value="transparent" />
+                                        </object>';
+
+                                       ?>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge info"><i class="fa fa-save"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Audio free...</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Brian read 3 little kingdom</p>
+                                </div>
+                                <hr>
+                                <div class="btn-group">                                        
+                                        <?php
+                                       $file = "https://drive.google.com/drive/u/1/folders/1WDVnxRjbwHTwBV1EHb3V6c-GQrtB9tRH";
+
+                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
+                                        <param name="movie" value="dewplayer.swf" />
+                                        <param name="flashvars" value="mp3='.$file.'" />
+                                        <param name="wmode" value="transparent" />
+                                        </object>';
+
+                                       ?>
+
+                                    </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-badge info"><i class="fa fa-save"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Audio .. Snow White</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Listen ... Snow White</p>
+                                    <hr>
+                                    <div class="btn-group">                                        
+                                        <?php
+                                        $dirname = 'audio/';
+                                       $file = (isset($_GET['file']) == true ? ($file = $_GET['file']) : 'Snow_White.mp3');
+
+                                        echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
+                                        <param name="movie" value="dewplayer.swf" />
+                                        <param name="flashvars" value="mp3='.$dirname.$file.'" />
+                                        <param name="wmode" value="transparent" />
+                                        </object>';
+
+                                       ?>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge info"><i class="fa fa-save"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Audio free...</h4>
+                                </div>
+                                <div class="timeline-body">
                                     <p>Stella sing song</p>
                                 </div>
                                 <hr>
                                 <div class="btn-group">                                        
                                         <?php
                                         $dirname = 'audio/';
-                                       $file = (isset($_GET['file']) == true ? ($file = $_GET['file']) : 'Snow_White.mp3');
+                                       $file = "";//(isset($_GET['file']) == true ? ($file = $_GET['file']) : 'Snow_White.mp3');
 
                                         echo '<object type="application/x-shockwave-flash" data="dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
                                         <param name="movie" value="dewplayer.swf" />
